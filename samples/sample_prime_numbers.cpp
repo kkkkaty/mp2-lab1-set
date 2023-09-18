@@ -14,9 +14,11 @@
 
 #include "tbitfield.h"
 
+
 int main()
 {
-  int n, m, k, count;
+    TBitField bf = 10;
+  /*int n, m, k, count;
 
   setlocale(LC_ALL, "Russian");
   cout << "Тестирование программ поддержки битового поля" << endl;
@@ -49,7 +51,7 @@ int main()
     }
   cout << endl;
   cout << "В первых " << n << " числах " << count << " простых" << endl;
-}
+}*/
 #else
 
 #include "tset.h"
@@ -91,4 +93,4 @@ int main()
   cout << "В первых " << n << " числах " << count << " простых" << endl;
 }
 
-#endif
+#endif 
